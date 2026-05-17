@@ -2,18 +2,19 @@
 Transformer for German-to-English Machine Translation
 </h1>
 
-<p align="center">
+<p align="left">
 PyTorch implementation of <i>Attention Is All You Need</i> (Vaswani et al., NeurIPS 2017) for German-to-English Neural Machine Translation on the Multi30k dataset.
 </p>
 
-<p align="center">
+<p align="left">
 
+<p align="center">
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red)
 ![Dataset](https://img.shields.io/badge/Dataset-Multi30k-orange)
 ![BLEU](https://img.shields.io/badge/Test_BLEU-40.03-brightgreen)
 ![Architecture](https://img.shields.io/badge/Architecture-Transformer-purple)
-
+<p align="center">
 </p>
 
 ---
