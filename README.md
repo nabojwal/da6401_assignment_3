@@ -3,7 +3,7 @@ Transformer for German-to-English Machine Translation
 </h1>
 
 <p align="center">
-PyTorch implementation of <i>Attention Is All You Need</i> (Vaswani et al., NeurIPS 2017)
+PyTorch implementation of <i>Attention Is All You Need</i> (Vaswani et al., NeurIPS 2017) for German-to-English Neural Machine Translation on the Multi30k dataset.
 </p>
 
 <p align="center">
