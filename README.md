@@ -8,7 +8,7 @@ PyTorch implementation of the Transformer architecture from *Attention Is All Yo
 
 ## Links
 
-* **GitHub Repository:** `<ADD_GITHUB_LINK_HERE>`
+* **GitHub Repository:** https://github.com/nabojwal/da6401_assignment_3
 * **Weights & Biases Report:** https://api.wandb.ai/links/nabojwal_dl1/d81hu3wu
 
 ---
