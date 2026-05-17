@@ -17,6 +17,15 @@ PyTorch implementation of <i>Attention Is All You Need</i> (Vaswani et al., Neur
 </p>
 
 ---
+# 🔗 Links
+
+- **GitHub Repository:**  
+  https://github.com/nabojwal/da6401_assignment_3
+
+- **Weights & Biases Report:**  
+  https://api.wandb.ai/links/nabojwal_dl1/d81hu3wu
+
+---
 
 # 📘 Overview
 
@@ -31,16 +40,6 @@ The implementation includes:
 - Greedy Autoregressive Decoding
 - BLEU Evaluation using SacreBLEU
 - Attention Head Visualization using Weights & Biases
-
----
-
-# 🔗 Links
-
-- **GitHub Repository:**  
-  https://github.com/nabojwal/da6401_assignment_3
-
-- **Weights & Biases Report:**  
-  https://api.wandb.ai/links/nabojwal_dl1/d81hu3wu
 
 ---
 
