@@ -39,7 +39,7 @@ The implementation includes:
 - Label Smoothing
 - Greedy Autoregressive Decoding
 - BLEU Evaluation using SacreBLEU
-- Attention Head Visualization using Weights & Biases
+- Attention Head Visualization  
 
 ---
 
