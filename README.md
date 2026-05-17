@@ -100,14 +100,10 @@ print(translation)
 | Test BLEU | `40.03` |
 
 ---
+## Model Configuration Note
 
-## Notes
-
-* ## Model Configuration Note
-
-* `Although the assignment references the original Transformer-Base architecture, the original paper also explored several smaller Transformer variants. Since this project uses the significantly smaller Multi30k dataset instead of the large-scale WMT benchmark, I used a lighter configuration (`N=4`, `d_model=256`, `d_ff=1024`, `h=8`, `d_k=32`) to reduce overfitting and improve computational efficiency.
-
-Despite the reduced parameter count, the model preserved all core Transformer components, successfully passed the provided autograder test cases, learned meaningful attention patterns, and achieved strong BLEU scores.`
+* Although the assignment references the original Transformer-Base architecture, the original paper also explored several smaller Transformer variants. Since this project uses the significantly smaller Multi30k dataset instead of the large-scale WMT benchmark, I used a lighter configuration (`N=4`, `d_model=256`, `d_ff=1024`, `h=8`, `d_k=32`) to reduce overfitting and improve computational efficiency.
+Despite the reduced parameter count, the model preserved all core Transformer components, successfully passed the provided autograder test cases, learned meaningful attention patterns, and achieved strong BLEU scores.
 
 ---
 
