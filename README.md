@@ -32,8 +32,8 @@ assignment3/
 ### Clone Repository
 
 ```bash id="y68z3s"
-git clone <YOUR_GITHUB_REPOSITORY_LINK>
-cd assignment3
+git clone https://github.com/nabojwal/da6401_assignment_3.git
+cd da6401_assignment_3
 ```
 
 ### Install Dependencies
@@ -96,13 +96,18 @@ print(translation)
 
 |    Best Metric  |  Score  |
 | --------------- | ------- |
-| Test BLEU Score | `40.03` |
+| Validation BLEU | `39.86` |
+| Test BLEU | `40.03` |
 
 ---
 
 ## Notes
 
-* Although the assignment references the original Transformer-Base architecture, this assignment uses the much smaller Multi30k dataset rather than the large-scale WMT benchmark. Hence, I used a lighter configuration (N=4, dmodel=256, dff=1024, h=8, dk=32) to reduce overfitting and improve computational efficiency. Even with reduced parameter count, the model retained all core Transformer components, passed the provided autograder test cases, learned meaningful attention patterns, and achieved strong BLEU scores.
+* ## Model Configuration Note
+
+* `Although the assignment references the original Transformer-Base architecture, the original paper also explored several smaller Transformer variants. Since this project uses the significantly smaller Multi30k dataset instead of the large-scale WMT benchmark, I used a lighter configuration (`N=4`, `d_model=256`, `d_ff=1024`, `h=8`, `d_k=32`) to reduce overfitting and improve computational efficiency.
+
+Despite the reduced parameter count, the model preserved all core Transformer components, successfully passed the provided autograder test cases, learned meaningful attention patterns, and achieved strong BLEU scores.`
 
 ---
 
