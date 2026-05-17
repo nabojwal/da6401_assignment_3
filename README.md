@@ -139,19 +139,7 @@ a man plays guitar.
 
 ---
 
-# 🧠 Attention Visualization
-
-The project includes attention head visualization experiments for:
-- Noam Scheduler vs Fixed LR
-- Scaled vs Unscaled Attention
-- Sinusoidal vs Learned Positional Encoding
-- Label Smoothing vs Standard Cross-Entropy
-
-These experiments help interpret head specialization, attention structure, and optimization stability inside the Transformer.
-
----
-
-# 📝 Model Configuration Note
+# 📝 Config. Note
 
 Although the assignment references the original Transformer-Base architecture, the original paper also explored several smaller Transformer variants. Since this project uses the much smaller Multi30k dataset instead of the large-scale WMT benchmark, I used a lighter configuration (`N=4`, `d_model=256`, `d_ff=1024`, `h=8`, `d_k=32`) to reduce overfitting and improve computational efficiency.
 
