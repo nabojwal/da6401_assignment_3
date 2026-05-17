@@ -80,32 +80,29 @@ print(translation)
 
 ## Hyperparameters
 
-| Hyperparameter | Value    |
-| -------------- | -------- |
-| d_model        | `<FILL>` |
-| Layers         | `<FILL>` |
-| Heads          | `<FILL>` |
-| d_ff           | `<FILL>` |
-| Dropout        | `<FILL>` |
-| Batch Size     | `<FILL>` |
-| Warmup Steps   | `<FILL>` |
+| Hyperparameter | Value |
+| -------------- | ------|
+| d_model        | `256` |
+| Layers(N)      | `4`   |
+| Heads          | `8`   |
+| d_ff           | `1024`|
+| Dropout        | `0.1` |
+| Batch Size     | `128` |
+| Warmup Steps   | `4000`|
 
 ---
 
 ## Evaluation
 
-| Metric     | Score                     |
-| ---------- | ------------------------- |
-| BLEU Score | `<FILL_FINAL_BLEU_SCORE>` |
+|    Best Metric  |  Score  |
+| --------------- | ------- |
+| Test BLEU Score | `40.03` |
 
 ---
 
 ## Notes
 
-* Implemented entirely using low-level PyTorch modules.
-* Does not use `torch.nn.MultiheadAttention`.
-* Supports end-to-end inference through `Transformer.infer()`.
-* Model weights are loaded inside `Transformer.__init__()` using `gdown`.
+* Although the assignment references the original Transformer-Base architecture, this assignment uses the much smaller Multi30k dataset rather than the large-scale WMT benchmark. Hence, I used a lighter configuration (N=4, dmodel=256, dff=1024, h=8, dk=32) to reduce overfitting and improve computational efficiency. Even with reduced parameter count, the model retained all core Transformer components, passed the provided autograder test cases, learned meaningful attention patterns, and achieved strong BLEU scores.
 
 ---
 
